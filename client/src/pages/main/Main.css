@@ -1,0 +1,43 @@
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main h1, main h2 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  main p {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .companies{
+    margin-top: 20px;
+    font-size: larger;
+  }
+  
+  main .companies img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  main button {
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 10px 35px;
+    background-color: orange;
+    border: none;
+    color: rgb(16, 14, 14);
+    cursor: pointer;
+  }
+  
