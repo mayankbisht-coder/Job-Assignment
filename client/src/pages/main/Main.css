@@ -2,12 +2,11 @@
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 700px;
   }
   
   main {
-    padding: 20px;
+    padding: 100px;
     text-align: center;
   }
   
@@ -22,6 +21,9 @@
   }
 
   .companies{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     margin-top: 20px;
     font-size: larger;
   }

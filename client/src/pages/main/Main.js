@@ -1,6 +1,10 @@
 import React from "react";
 import "./Main.css";
 import { Link } from "react-router-dom";
+import google from "./assets/google.svg";
+import microsoft from "./assets/microsoft.svg";
+import spotify from "./assets/spotify.svg";
+import amazon from "./assets/amazon.svg";
 
 const Main = () => {
   return (
@@ -14,10 +18,10 @@ const Main = () => {
           jobs at tech companies including:
         </p>
         <div className="companies">
-          <img src="google.png" alt="Google" />
-          <img src="microsoft.png" alt="Microsoft" />
-          <img src="spotify.png" alt="Spotify" />
-          <img src="amazon.png" alt="Amazon" />
+          <img src={google} alt="Google" />
+          <img src={microsoft} alt="Microsoft" />
+          <img src={spotify} alt="Spotify" />
+          <img src={amazon} alt="Amazon" />
         </div>
         <Link to="/signup">
           <button>Get started (it's free)</button>
