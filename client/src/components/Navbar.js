@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./Navbar.css";
 import { AuthContext } from "../provider/AuthContext";
 import { Link } from "react-router-dom";
@@ -8,6 +8,7 @@ const Navbar = () => {
   const handleLogout = async () => {
     await signout();
   };
+
   return (
     <header>
       <input type="text" placeholder="Search 8,000+ tutorials" />

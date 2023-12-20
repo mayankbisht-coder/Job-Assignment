@@ -2,7 +2,7 @@ import axios from "axios";
 import { KEY_ACCESS_TOKEN, getItem, removeItem } from "./localStorageManager";
 
 export const axiosClient = axios.create({
-  baseURL: process.env.REACT_APP_SERVER_BASE_URL,
+  baseURL: "https://freecodecamp-assignment.onrender.com/",
   withCredentials: true,
   credentials: "include",
 });
