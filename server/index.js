@@ -17,7 +17,8 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin:
+      "https://6583d0903098faa91bd5c003--silly-rolypoly-45b359.netlify.app/",
   })
 );
 
