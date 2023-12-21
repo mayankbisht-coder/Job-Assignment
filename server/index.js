@@ -18,7 +18,7 @@ app.use(
   cors({
     credentials: true,
     origin:
-      "https://6583d0903098faa91bd5c003--silly-rolypoly-45b359.netlify.app/",
+      "https://6583d0903098faa91bd5c003--silly-rolypoly-45b359.netlify.app",
   })
 );
 
